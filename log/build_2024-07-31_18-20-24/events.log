@@ -1,0 +1,566 @@
+[0.000000] (-) TimerEvent: {}
+[0.000097] (lio_sam) JobQueued: {'identifier': 'lio_sam', 'dependencies': OrderedDict()}
+[0.000117] (lio_sam) JobStarted: {'identifier': 'lio_sam'}
+[0.005594] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'cmake'}
+[0.013229] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'build'}
+[0.013270] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aria/lidarslam_ws/src/LIO-SAM/build/lio_sam', '--', '-j32', '-l32'], 'cwd': '/home/aria/lidarslam_ws/src/LIO-SAM/build/lio_sam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aria'), ('GIO_MODULE_DIR', '/home/aria/snap/code/common/.cache/gio-modules'), ('ROS_PACKAGE_PATH', '/home/aria/lidarslam_ws/install/lio_sam_mid360/share'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/164/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/aria/lidarslam_ws/install/scanmatcher/lib:/home/aria/lidarslam_ws/install/graph_based_slam/lib:/home/aria/lidarslam_ws/install/livox_sdk2/lib:/home/aria/lidarslam_ws/install/livox_ros_driver2/lib:/home/aria/lidarslam_ws/install/lio_sam/lib:/home/aria/lidarslam_ws/install/lidarslam_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aria'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/164/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/aria/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/164/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/164/usr/share/code/code'), ('MANAGERPID', '2057'), ('SYSTEMD_EXEC_PID', '2427'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6203'), ('COLCON_PREFIX_PATH', '/home/aria/lidarslam_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'aria'), ('JOURNAL_STREAM', '8:55832'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PKG_CONFIG_PATH', '/home/aria/lidarslam_ws/install/lio_sam_mid360/lib/x86_64-linux-gnu/pkgconfig:/home/aria/lidarslam_ws/install/lio_sam_mid360/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'aria'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/aria/.local/bin:/home/aria/lidarslam_ws/install/ndt_omp_ros2/bin:/opt/ros/humble/bin:/home/aria/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ariadesktop3:@/tmp/.ICE-unix/2405,unix/ariadesktop3:/tmp/.ICE-unix/2405'), ('GTK_EXE_PREFIX', '/snap/code/164/usr'), ('INVOCATION_ID', 'accfdcc4378d43258eac15657221ccad'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/164/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6895516336.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/aria/snap/code/164/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/aria/lidarslam_ws/install/scanmatcher:/home/aria/lidarslam_ws/install/practice_package:/home/aria/lidarslam_ws/install/graph_based_slam:/home/aria/lidarslam_ws/install/ndt_omp_ros2:/home/aria/lidarslam_ws/install/my_robot_control:/home/aria/lidarslam_ws/install/my_livox_publisher:/home/aria/lidarslam_ws/install/livox_ros_driver2:/home/aria/lidarslam_ws/install/lio_sam:/home/aria/lidarslam_ws/install/lidarslam_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aria/lidarslam_ws/src/LIO-SAM/build/lio_sam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/aria/snap/code/164/.local/share:/home/aria/snap/code/164:/snap/code/164/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aria/lidarslam_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/aria/lidarslam_ws/install/lio_sam/local/lib/python3.10/dist-packages:/home/aria/lidarslam_ws/install/lidarslam_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/aria/lidarslam_ws/install/scanmatcher:/home/aria/lidarslam_ws/install/practice_package:/home/aria/lidarslam_ws/install/graph_based_slam:/home/aria/lidarslam_ws/install/ndt_omp_ros2:/home/aria/lidarslam_ws/install/my_robot_control:/home/aria/lidarslam_ws/install/my_livox_publisher:/home/aria/lidarslam_ws/install/livox_ros_driver2:/opt/ros/humble:/home/aria/lidarslam_ws/install/lio_sam:/home/aria/lidarslam_ws/install/lidarslam_msgs')]), 'shell': False}
+[0.047917] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_generator_c\x1b[0m\n'}
+[0.054260] (lio_sam) StdoutLine: {'line': b'[  2%] Built target lio_sam__cpp\n'}
+[0.055464] (lio_sam) StdoutLine: {'line': b'[ 10%] Built target lio_sam__rosidl_generator_c\n'}
+[0.059442] (lio_sam) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_copy_lio_sam\n'}
+[0.061405] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.061542] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.061649] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.062928] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.063030] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.063135] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_c\x1b[0m\n'}
+[0.070024] (lio_sam) StdoutLine: {'line': b'[ 23%] Built target lio_sam__rosidl_typesupport_cpp\n'}
+[0.070163] (lio_sam) StdoutLine: {'line': b'[ 27%] Built target lio_sam__rosidl_typesupport_introspection_cpp\n'}
+[0.070313] (lio_sam) StdoutLine: {'line': b'[ 36%] Built target lio_sam__rosidl_typesupport_c\n'}
+[0.070490] (lio_sam) StdoutLine: {'line': b'[ 44%] Built target lio_sam__rosidl_typesupport_introspection_c\n'}
+[0.071461] (lio_sam) StdoutLine: {'line': b'[ 53%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp\n'}
+[0.071835] (lio_sam) StdoutLine: {'line': b'[ 61%] Built target lio_sam__rosidl_typesupport_fastrtps_c\n'}
+[0.079052] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam_featureExtraction\x1b[0m\n'}
+[0.079507] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam_imuPreintegration\x1b[0m\n'}
+[0.079619] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam_mapOptimization\x1b[0m\n'}
+[0.079751] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam_imageProjection\x1b[0m\n'}
+[0.085592] (lio_sam) StdoutLine: {'line': b'[ 61%] Built target lio_sam\n'}
+[0.098844] (lio_sam) StdoutLine: {'line': b'[ 63%] Built target lio_sam__py\n'}
+[0.099417] (-) TimerEvent: {}
+[0.104162] (lio_sam) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o\x1b[0m\n'}
+[0.105903] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_generator_py\x1b[0m\n'}
+[0.107681] (lio_sam) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o\x1b[0m\n'}
+[0.110175] (lio_sam) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o\x1b[0m\n'}
+[0.110322] (lio_sam) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o\x1b[0m\n'}
+[0.115176] (lio_sam) StdoutLine: {'line': b'[ 78%] Built target lio_sam__rosidl_generator_py\n'}
+[0.122887] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.124979] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.125137] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.132495] (lio_sam) StdoutLine: {'line': b'[ 82%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.134455] (lio_sam) StdoutLine: {'line': b'[ 87%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext\n'}
+[0.136136] (lio_sam) StdoutLine: {'line': b'[ 91%] Built target lio_sam__rosidl_typesupport_c__pyext\n'}
+[0.199530] (-) TimerEvent: {}
+[0.208888] (lio_sam) StdoutLine: {'line': b'running egg_info\n'}
+[0.209375] (lio_sam) StdoutLine: {'line': b'writing lio_sam.egg-info/PKG-INFO\n'}
+[0.209672] (lio_sam) StdoutLine: {'line': b'writing dependency_links to lio_sam.egg-info/dependency_links.txt\n'}
+[0.209745] (lio_sam) StdoutLine: {'line': b'writing top-level names to lio_sam.egg-info/top_level.txt\n'}
+[0.210914] (lio_sam) StdoutLine: {'line': b"reading manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[0.211205] (lio_sam) StdoutLine: {'line': b"writing manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[0.228448] (lio_sam) StdoutLine: {'line': b'[ 91%] Built target ament_cmake_python_build_lio_sam_egg\n'}
+[0.299719] (-) TimerEvent: {}
+[0.400011] (-) TimerEvent: {}
+[0.500369] (-) TimerEvent: {}
+[0.600760] (-) TimerEvent: {}
+[0.701145] (-) TimerEvent: {}
+[0.801467] (-) TimerEvent: {}
+[0.901887] (-) TimerEvent: {}
+[1.002196] (-) TimerEvent: {}
+[1.102548] (-) TimerEvent: {}
+[1.202935] (-) TimerEvent: {}
+[1.303321] (-) TimerEvent: {}
+[1.403690] (-) TimerEvent: {}
+[1.503980] (-) TimerEvent: {}
+[1.604326] (-) TimerEvent: {}
+[1.704641] (-) TimerEvent: {}
+[1.805045] (-) TimerEvent: {}
+[1.905447] (-) TimerEvent: {}
+[2.005830] (-) TimerEvent: {}
+[2.106235] (-) TimerEvent: {}
+[2.206643] (-) TimerEvent: {}
+[2.307070] (-) TimerEvent: {}
+[2.407466] (-) TimerEvent: {}
+[2.507816] (-) TimerEvent: {}
+[2.608147] (-) TimerEvent: {}
+[2.708571] (-) TimerEvent: {}
+[2.808977] (-) TimerEvent: {}
+[2.909400] (-) TimerEvent: {}
+[3.009803] (-) TimerEvent: {}
+[3.110212] (-) TimerEvent: {}
+[3.210615] (-) TimerEvent: {}
+[3.311099] (-) TimerEvent: {}
+[3.411505] (-) TimerEvent: {}
+[3.511928] (-) TimerEvent: {}
+[3.612336] (-) TimerEvent: {}
+[3.712751] (-) TimerEvent: {}
+[3.813155] (-) TimerEvent: {}
+[3.913542] (-) TimerEvent: {}
+[4.013837] (-) TimerEvent: {}
+[4.114143] (-) TimerEvent: {}
+[4.214567] (-) TimerEvent: {}
+[4.314986] (-) TimerEvent: {}
+[4.415346] (-) TimerEvent: {}
+[4.515708] (-) TimerEvent: {}
+[4.616006] (-) TimerEvent: {}
+[4.716294] (-) TimerEvent: {}
+[4.816694] (-) TimerEvent: {}
+[4.917132] (-) TimerEvent: {}
+[5.017542] (-) TimerEvent: {}
+[5.117953] (-) TimerEvent: {}
+[5.218375] (-) TimerEvent: {}
+[5.318808] (-) TimerEvent: {}
+[5.419248] (-) TimerEvent: {}
+[5.519570] (-) TimerEvent: {}
+[5.619893] (-) TimerEvent: {}
+[5.720155] (-) TimerEvent: {}
+[5.820510] (-) TimerEvent: {}
+[5.920880] (-) TimerEvent: {}
+[6.021322] (-) TimerEvent: {}
+[6.121635] (-) TimerEvent: {}
+[6.221984] (-) TimerEvent: {}
+[6.322289] (-) TimerEvent: {}
+[6.422713] (-) TimerEvent: {}
+[6.523144] (-) TimerEvent: {}
+[6.623534] (-) TimerEvent: {}
+[6.723978] (-) TimerEvent: {}
+[6.824418] (-) TimerEvent: {}
+[6.924835] (-) TimerEvent: {}
+[7.025195] (-) TimerEvent: {}
+[7.125532] (-) TimerEvent: {}
+[7.226187] (-) TimerEvent: {}
+[7.326588] (-) TimerEvent: {}
+[7.426952] (-) TimerEvent: {}
+[7.527372] (-) TimerEvent: {}
+[7.622816] (lio_sam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:32\x1b[m\x1b[K,\n'}
+[7.623010] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:29\x1b[m\x1b[K,\n'}
+[7.623075] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.623247] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.623331] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.623509] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.623616] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.623680] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.623755] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.623809] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.623863] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aria/lidarslam_ws/src/LIO-SAM/include/lio_sam/utility.hpp:6\x1b[m\x1b[K,\n'}
+[7.623922] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aria/lidarslam_ws/src/LIO-SAM/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[7.623975] (lio_sam) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (ImageProjection::*(ImageProjection*, std::_Placeholder<1>))(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>; MessageT = livox_ros_driver2::CustomMsg_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.624032] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = livox_ros_driver2::CustomMsg_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageProjection::*(ImageProjection*, std::_Placeholder<1>))(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<livox_ros_driver2::CustomMsg_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = livox_ros_driver2::CustomMsg_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.624091] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = livox_ros_driver2::CustomMsg_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageProjection::*(ImageProjection*, std::_Placeholder<1>))(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<livox_ros_driver2::CustomMsg_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = livox_ros_driver2::CustomMsg_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.624156] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = livox_ros_driver2::CustomMsg_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageProjection::*(ImageProjection*, std::_Placeholder<1>))(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<livox_ros_driver2::CustomMsg_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.624219] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = livox_ros_driver2::CustomMsg_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageProjection::*(ImageProjection*, std::_Placeholder<1>))(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<livox_ros_driver2::CustomMsg_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.624281] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aria/lidarslam_ws/src/LIO-SAM/src/imageProjection.cpp:155:74:\x1b[m\x1b[K   required from here\n'}
+[7.624334] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:394:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::detail::AnySubscriptionCallbackHelper<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void>, false>::variant_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::variant<std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&)>, std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Krclcpp::detail::SubscriptionCallbackTypeHelper<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::_Bind<void (ImageProjection::*(ImageProjection*, std::_Placeholder<1>))(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>, void>::callback_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[7.624414] (lio_sam) StderrLine: {'line': b'  394 |       \x1b[01;31m\x1b[Kcallback_variant_ = static_cast<typename scbth::callback_type>(callback)\x1b[m\x1b[K;\n'}
+[7.624468] (lio_sam) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.624522] (lio_sam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[7.624574] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.624626] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.624678] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.624731] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.624783] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.624835] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.624887] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.624939] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.624990] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.625043] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aria/lidarslam_ws/src/LIO-SAM/include/lio_sam/utility.hpp:6\x1b[m\x1b[K,\n'}
+[7.625095] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/aria/lidarslam_ws/src/LIO-SAM/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[7.625148] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1461:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::enable_if_t<((__exactly_once<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type> > && is_constructible_v<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>, _Tp>) && is_assignable_v<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>&, _Tp>), std::variant<_Types>&> std::variant<_Types>::operator=(_Tp&&) [with _Tp = _Tp; _Types = {std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&)>, std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.625226] (lio_sam) StderrLine: {'line': b' 1461 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(_Tp&& __rhs)\n'}
+[7.625280] (lio_sam) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.625331] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1461:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.625383] (lio_sam) StderrLine: {'line': b'/usr/include/c++/11/variant: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Types> template<class _Tp, class> using __accepted_type = std::variant<_Types>::__to_type<__accepted_index<_Tp> > [with _Tp = std::function<void(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>&&; <template-parameter-2-2> = void; _Types = {std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&)>, std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>}]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.625452] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1457:14:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::enable_if_t<((__exactly_once<std::variant<std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&)>, std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type> > && is_constructible_v<std::variant<std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&)>, std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>, _Tp>) && is_assignable_v<std::variant<std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&)>, std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>&, _Tp>), std::variant<std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&)>, std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >&> std::variant<std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&)>, std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >::operator=<_Tp>(_Tp&&) [with _Tp = std::function<void(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.625578] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:394:25:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (ImageProjection::*(ImageProjection*, std::_Placeholder<1>))(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>; MessageT = livox_ros_driver2::CustomMsg_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.625632] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = livox_ros_driver2::CustomMsg_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageProjection::*(ImageProjection*, std::_Placeholder<1>))(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<livox_ros_driver2::CustomMsg_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = livox_ros_driver2::CustomMsg_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.625694] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = livox_ros_driver2::CustomMsg_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageProjection::*(ImageProjection*, std::_Placeholder<1>))(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<livox_ros_driver2::CustomMsg_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = livox_ros_driver2::CustomMsg_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.625755] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = livox_ros_driver2::CustomMsg_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageProjection::*(ImageProjection*, std::_Placeholder<1>))(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<livox_ros_driver2::CustomMsg_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.625814] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = livox_ros_driver2::CustomMsg_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageProjection::*(ImageProjection*, std::_Placeholder<1>))(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<livox_ros_driver2::CustomMsg_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.625875] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aria/lidarslam_ws/src/LIO-SAM/src/imageProjection.cpp:155:74:\x1b[m\x1b[K   required from here\n'}
+[7.625926] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1375:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.625979] (lio_sam) StderrLine: {'line': b' 1375 |         using \x1b[01;31m\x1b[K__accepted_type\x1b[m\x1b[K = __to_type<__accepted_index<_Tp>>;\n'}
+[7.626030] (lio_sam) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.626082] (lio_sam) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (ImageProjection::*(ImageProjection*, std::_Placeholder<1>))(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>; MessageT = livox_ros_driver2::CustomMsg_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.626140] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = livox_ros_driver2::CustomMsg_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageProjection::*(ImageProjection*, std::_Placeholder<1>))(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<livox_ros_driver2::CustomMsg_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = livox_ros_driver2::CustomMsg_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.626201] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = livox_ros_driver2::CustomMsg_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageProjection::*(ImageProjection*, std::_Placeholder<1>))(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<livox_ros_driver2::CustomMsg_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = livox_ros_driver2::CustomMsg_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.626258] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = livox_ros_driver2::CustomMsg_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageProjection::*(ImageProjection*, std::_Placeholder<1>))(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<livox_ros_driver2::CustomMsg_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.626321] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = livox_ros_driver2::CustomMsg_<std::allocator<void> >; CallbackT = std::_Bind<void (ImageProjection::*(ImageProjection*, std::_Placeholder<1>))(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<livox_ros_driver2::CustomMsg_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.626383] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aria/lidarslam_ws/src/LIO-SAM/src/imageProjection.cpp:155:74:\x1b[m\x1b[K   required from here\n'}
+[7.626439] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1398:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::variant<_Types>& std::variant<_Types>::operator=(const std::variant<_Types>&) [with _Types = {std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&)>, std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.626505] (lio_sam) StderrLine: {'line': b' 1398 |       variant& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const variant&) = default;\n'}
+[7.626562] (lio_sam) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.626615] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1398:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::detail::SubscriptionCallbackTypeHelper<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::_Bind<void (ImageProjection::*(ImageProjection*, std::_Placeholder<1>))(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>, void>::callback_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::variant<std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&)>, std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.626684] (lio_sam) StderrLine: {'line': b' 1398 |       variant& operator=(\x1b[01;36m\x1b[Kconst variant&\x1b[m\x1b[K) = default;\n'}
+[7.626738] (lio_sam) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.626791] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1399:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::variant<_Types>& std::variant<_Types>::operator=(std::variant<_Types>&&) [with _Types = {std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&)>, std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.626866] (lio_sam) StderrLine: {'line': b' 1399 |       variant& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(variant&&) = default;\n'}
+[7.626920] (lio_sam) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.626972] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1399:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::detail::SubscriptionCallbackTypeHelper<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::_Bind<void (ImageProjection::*(ImageProjection*, std::_Placeholder<1>))(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>, void>::callback_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<void(const std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::variant<std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&)>, std::function<void(const livox_ros_driver2::CustomMsg_<std::allocator<void> >&, const rclcpp::MessageInfo&)>, std::function<void(const rclcpp::SerializedMessage&)>, std::function<void(const rclcpp::SerializedMessage&, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >)>, std::function<void(std::unique_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> >, std::default_delete<livox_ros_driver2::CustomMsg_<std::allocator<void> > > >, const rclcpp::MessageInfo&)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >)>, std::function<void(std::unique_ptr<rclcpp::SerializedMessage, std::default_delete<rclcpp::SerializedMessage> >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<const rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&)>, std::function<void(const std::shared_ptr<const livox_ros_driver2::CustomMsg_<std::allocator<void> > >&, const rclcpp::MessageInfo&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&)>, std::function<void(const std::shared_ptr<const rclcpp::SerializedMessage>&, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<livox_ros_driver2::CustomMsg_<std::allocator<void> > >, const rclcpp::MessageInfo&)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>)>, std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const rclcpp::MessageInfo&)> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.627038] (lio_sam) StderrLine: {'line': b' 1399 |       variant& operator=(\x1b[01;36m\x1b[Kvariant&&\x1b[m\x1b[K) = default;\n'}
+[7.627094] (lio_sam) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.627426] (-) TimerEvent: {}
+[7.727673] (-) TimerEvent: {}
+[7.827957] (-) TimerEvent: {}
+[7.928354] (-) TimerEvent: {}
+[8.028825] (-) TimerEvent: {}
+[8.129218] (-) TimerEvent: {}
+[8.229654] (-) TimerEvent: {}
+[8.330054] (-) TimerEvent: {}
+[8.430475] (-) TimerEvent: {}
+[8.530893] (-) TimerEvent: {}
+[8.631325] (-) TimerEvent: {}
+[8.731630] (-) TimerEvent: {}
+[8.831940] (-) TimerEvent: {}
+[8.932234] (-) TimerEvent: {}
+[9.032657] (-) TimerEvent: {}
+[9.133062] (-) TimerEvent: {}
+[9.233352] (-) TimerEvent: {}
+[9.333694] (-) TimerEvent: {}
+[9.434094] (-) TimerEvent: {}
+[9.534548] (-) TimerEvent: {}
+[9.635017] (-) TimerEvent: {}
+[9.735434] (-) TimerEvent: {}
+[9.835790] (-) TimerEvent: {}
+[9.936076] (-) TimerEvent: {}
+[10.036422] (-) TimerEvent: {}
+[10.136844] (-) TimerEvent: {}
+[10.237265] (-) TimerEvent: {}
+[10.337701] (-) TimerEvent: {}
+[10.438104] (-) TimerEvent: {}
+[10.538449] (-) TimerEvent: {}
+[10.638776] (-) TimerEvent: {}
+[10.739218] (-) TimerEvent: {}
+[10.839596] (-) TimerEvent: {}
+[10.939937] (-) TimerEvent: {}
+[11.040282] (-) TimerEvent: {}
+[11.140699] (-) TimerEvent: {}
+[11.241031] (-) TimerEvent: {}
+[11.341423] (-) TimerEvent: {}
+[11.441846] (-) TimerEvent: {}
+[11.542250] (-) TimerEvent: {}
+[11.642646] (-) TimerEvent: {}
+[11.743066] (-) TimerEvent: {}
+[11.843392] (-) TimerEvent: {}
+[11.943727] (-) TimerEvent: {}
+[12.044050] (-) TimerEvent: {}
+[12.134679] (lio_sam) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lio_sam_imageProjection.dir/build.make:76: CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o] Error 1\n'}
+[12.134926] (lio_sam) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:626: CMakeFiles/lio_sam_imageProjection.dir/all] Error 2\n'}
+[12.134988] (lio_sam) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[12.144184] (-) TimerEvent: {}
+[12.244588] (-) TimerEvent: {}
+[12.344973] (-) TimerEvent: {}
+[12.445269] (-) TimerEvent: {}
+[12.545705] (-) TimerEvent: {}
+[12.646111] (-) TimerEvent: {}
+[12.746530] (-) TimerEvent: {}
+[12.846962] (-) TimerEvent: {}
+[12.947387] (-) TimerEvent: {}
+[13.047738] (-) TimerEvent: {}
+[13.148129] (-) TimerEvent: {}
+[13.248560] (-) TimerEvent: {}
+[13.348855] (-) TimerEvent: {}
+[13.449127] (-) TimerEvent: {}
+[13.549459] (-) TimerEvent: {}
+[13.649729] (-) TimerEvent: {}
+[13.750134] (-) TimerEvent: {}
+[13.850515] (-) TimerEvent: {}
+[13.950920] (-) TimerEvent: {}
+[14.051336] (-) TimerEvent: {}
+[14.151721] (-) TimerEvent: {}
+[14.252072] (-) TimerEvent: {}
+[14.352464] (-) TimerEvent: {}
+[14.452849] (-) TimerEvent: {}
+[14.553247] (-) TimerEvent: {}
+[14.653657] (-) TimerEvent: {}
+[14.754056] (-) TimerEvent: {}
+[14.854452] (-) TimerEvent: {}
+[14.954861] (-) TimerEvent: {}
+[15.055274] (-) TimerEvent: {}
+[15.155656] (-) TimerEvent: {}
+[15.256079] (-) TimerEvent: {}
+[15.356470] (-) TimerEvent: {}
+[15.456886] (-) TimerEvent: {}
+[15.557297] (-) TimerEvent: {}
+[15.657701] (-) TimerEvent: {}
+[15.758095] (-) TimerEvent: {}
+[15.858533] (-) TimerEvent: {}
+[15.958945] (-) TimerEvent: {}
+[16.059363] (-) TimerEvent: {}
+[16.159788] (-) TimerEvent: {}
+[16.260176] (-) TimerEvent: {}
+[16.360576] (-) TimerEvent: {}
+[16.460984] (-) TimerEvent: {}
+[16.561377] (-) TimerEvent: {}
+[16.661781] (-) TimerEvent: {}
+[16.762048] (-) TimerEvent: {}
+[16.862463] (-) TimerEvent: {}
+[16.877403] (lio_sam) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable lio_sam_featureExtraction\x1b[0m\n'}
+[16.962693] (-) TimerEvent: {}
+[17.063071] (-) TimerEvent: {}
+[17.163378] (-) TimerEvent: {}
+[17.170059] (lio_sam) StdoutLine: {'line': b'[ 93%] Built target lio_sam_featureExtraction\n'}
+[17.263564] (-) TimerEvent: {}
+[17.363939] (-) TimerEvent: {}
+[17.464280] (-) TimerEvent: {}
+[17.564519] (-) TimerEvent: {}
+[17.664853] (-) TimerEvent: {}
+[17.765180] (-) TimerEvent: {}
+[17.865552] (-) TimerEvent: {}
+[17.965944] (-) TimerEvent: {}
+[18.066362] (-) TimerEvent: {}
+[18.166790] (-) TimerEvent: {}
+[18.267201] (-) TimerEvent: {}
+[18.367625] (-) TimerEvent: {}
+[18.467886] (-) TimerEvent: {}
+[18.568122] (-) TimerEvent: {}
+[18.668412] (-) TimerEvent: {}
+[18.768720] (-) TimerEvent: {}
+[18.868963] (-) TimerEvent: {}
+[18.969244] (-) TimerEvent: {}
+[19.069587] (-) TimerEvent: {}
+[19.169905] (-) TimerEvent: {}
+[19.270285] (-) TimerEvent: {}
+[19.370672] (-) TimerEvent: {}
+[19.470956] (-) TimerEvent: {}
+[19.571329] (-) TimerEvent: {}
+[19.671754] (-) TimerEvent: {}
+[19.772164] (-) TimerEvent: {}
+[19.872580] (-) TimerEvent: {}
+[19.972886] (-) TimerEvent: {}
+[20.073215] (-) TimerEvent: {}
+[20.173647] (-) TimerEvent: {}
+[20.274079] (-) TimerEvent: {}
+[20.374365] (-) TimerEvent: {}
+[20.474754] (-) TimerEvent: {}
+[20.575148] (-) TimerEvent: {}
+[20.675626] (-) TimerEvent: {}
+[20.776054] (-) TimerEvent: {}
+[20.876472] (-) TimerEvent: {}
+[20.976883] (-) TimerEvent: {}
+[21.077281] (-) TimerEvent: {}
+[21.177660] (-) TimerEvent: {}
+[21.278054] (-) TimerEvent: {}
+[21.378454] (-) TimerEvent: {}
+[21.478832] (-) TimerEvent: {}
+[21.579209] (-) TimerEvent: {}
+[21.679597] (-) TimerEvent: {}
+[21.779999] (-) TimerEvent: {}
+[21.880410] (-) TimerEvent: {}
+[21.980795] (-) TimerEvent: {}
+[22.081184] (-) TimerEvent: {}
+[22.181585] (-) TimerEvent: {}
+[22.281966] (-) TimerEvent: {}
+[22.382383] (-) TimerEvent: {}
+[22.482809] (-) TimerEvent: {}
+[22.583182] (-) TimerEvent: {}
+[22.683603] (-) TimerEvent: {}
+[22.784029] (-) TimerEvent: {}
+[22.884405] (-) TimerEvent: {}
+[22.984809] (-) TimerEvent: {}
+[23.085188] (-) TimerEvent: {}
+[23.185586] (-) TimerEvent: {}
+[23.286033] (-) TimerEvent: {}
+[23.386446] (-) TimerEvent: {}
+[23.486846] (-) TimerEvent: {}
+[23.587226] (-) TimerEvent: {}
+[23.687631] (-) TimerEvent: {}
+[23.788009] (-) TimerEvent: {}
+[23.888439] (-) TimerEvent: {}
+[23.988855] (-) TimerEvent: {}
+[24.089252] (-) TimerEvent: {}
+[24.189652] (-) TimerEvent: {}
+[24.290060] (-) TimerEvent: {}
+[24.390455] (-) TimerEvent: {}
+[24.490866] (-) TimerEvent: {}
+[24.591260] (-) TimerEvent: {}
+[24.691644] (-) TimerEvent: {}
+[24.792040] (-) TimerEvent: {}
+[24.892434] (-) TimerEvent: {}
+[24.992858] (-) TimerEvent: {}
+[25.093235] (-) TimerEvent: {}
+[25.193621] (-) TimerEvent: {}
+[25.294032] (-) TimerEvent: {}
+[25.394433] (-) TimerEvent: {}
+[25.494836] (-) TimerEvent: {}
+[25.595249] (-) TimerEvent: {}
+[25.695662] (-) TimerEvent: {}
+[25.796038] (-) TimerEvent: {}
+[25.896446] (-) TimerEvent: {}
+[25.996848] (-) TimerEvent: {}
+[26.097244] (-) TimerEvent: {}
+[26.197646] (-) TimerEvent: {}
+[26.298060] (-) TimerEvent: {}
+[26.398458] (-) TimerEvent: {}
+[26.498859] (-) TimerEvent: {}
+[26.599273] (-) TimerEvent: {}
+[26.699686] (-) TimerEvent: {}
+[26.800071] (-) TimerEvent: {}
+[26.900473] (-) TimerEvent: {}
+[27.000859] (-) TimerEvent: {}
+[27.101261] (-) TimerEvent: {}
+[27.201650] (-) TimerEvent: {}
+[27.249129] (lio_sam) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable lio_sam_imuPreintegration\x1b[0m\n'}
+[27.301855] (-) TimerEvent: {}
+[27.402272] (-) TimerEvent: {}
+[27.502682] (-) TimerEvent: {}
+[27.603081] (-) TimerEvent: {}
+[27.609623] (lio_sam) StdoutLine: {'line': b'[ 95%] Built target lio_sam_imuPreintegration\n'}
+[27.703341] (-) TimerEvent: {}
+[27.803715] (-) TimerEvent: {}
+[27.903987] (-) TimerEvent: {}
+[28.004263] (-) TimerEvent: {}
+[28.104547] (-) TimerEvent: {}
+[28.204989] (-) TimerEvent: {}
+[28.305385] (-) TimerEvent: {}
+[28.405787] (-) TimerEvent: {}
+[28.506204] (-) TimerEvent: {}
+[28.606488] (-) TimerEvent: {}
+[28.706841] (-) TimerEvent: {}
+[28.807138] (-) TimerEvent: {}
+[28.907418] (-) TimerEvent: {}
+[29.007820] (-) TimerEvent: {}
+[29.108059] (-) TimerEvent: {}
+[29.208296] (-) TimerEvent: {}
+[29.308617] (-) TimerEvent: {}
+[29.408878] (-) TimerEvent: {}
+[29.509199] (-) TimerEvent: {}
+[29.609462] (-) TimerEvent: {}
+[29.709695] (-) TimerEvent: {}
+[29.810032] (-) TimerEvent: {}
+[29.910354] (-) TimerEvent: {}
+[30.010619] (-) TimerEvent: {}
+[30.110919] (-) TimerEvent: {}
+[30.211236] (-) TimerEvent: {}
+[30.311580] (-) TimerEvent: {}
+[30.411881] (-) TimerEvent: {}
+[30.512155] (-) TimerEvent: {}
+[30.612484] (-) TimerEvent: {}
+[30.712751] (-) TimerEvent: {}
+[30.813010] (-) TimerEvent: {}
+[30.913427] (-) TimerEvent: {}
+[31.013867] (-) TimerEvent: {}
+[31.114278] (-) TimerEvent: {}
+[31.214659] (-) TimerEvent: {}
+[31.315072] (-) TimerEvent: {}
+[31.415486] (-) TimerEvent: {}
+[31.515907] (-) TimerEvent: {}
+[31.616304] (-) TimerEvent: {}
+[31.716708] (-) TimerEvent: {}
+[31.817119] (-) TimerEvent: {}
+[31.917549] (-) TimerEvent: {}
+[32.017979] (-) TimerEvent: {}
+[32.118436] (-) TimerEvent: {}
+[32.218901] (-) TimerEvent: {}
+[32.319302] (-) TimerEvent: {}
+[32.419718] (-) TimerEvent: {}
+[32.520146] (-) TimerEvent: {}
+[32.620541] (-) TimerEvent: {}
+[32.720918] (-) TimerEvent: {}
+[32.821307] (-) TimerEvent: {}
+[32.921696] (-) TimerEvent: {}
+[33.022095] (-) TimerEvent: {}
+[33.122485] (-) TimerEvent: {}
+[33.222886] (-) TimerEvent: {}
+[33.323248] (-) TimerEvent: {}
+[33.423639] (-) TimerEvent: {}
+[33.524040] (-) TimerEvent: {}
+[33.624441] (-) TimerEvent: {}
+[33.724847] (-) TimerEvent: {}
+[33.825260] (-) TimerEvent: {}
+[33.925647] (-) TimerEvent: {}
+[34.026041] (-) TimerEvent: {}
+[34.126439] (-) TimerEvent: {}
+[34.226823] (-) TimerEvent: {}
+[34.327184] (-) TimerEvent: {}
+[34.427649] (-) TimerEvent: {}
+[34.528018] (-) TimerEvent: {}
+[34.628257] (-) TimerEvent: {}
+[34.728581] (-) TimerEvent: {}
+[34.828920] (-) TimerEvent: {}
+[34.929254] (-) TimerEvent: {}
+[35.029573] (-) TimerEvent: {}
+[35.129915] (-) TimerEvent: {}
+[35.230162] (-) TimerEvent: {}
+[35.330465] (-) TimerEvent: {}
+[35.430687] (-) TimerEvent: {}
+[35.531017] (-) TimerEvent: {}
+[35.631264] (-) TimerEvent: {}
+[35.731587] (-) TimerEvent: {}
+[35.831840] (-) TimerEvent: {}
+[35.932157] (-) TimerEvent: {}
+[36.032447] (-) TimerEvent: {}
+[36.132752] (-) TimerEvent: {}
+[36.233063] (-) TimerEvent: {}
+[36.333394] (-) TimerEvent: {}
+[36.433750] (-) TimerEvent: {}
+[36.534070] (-) TimerEvent: {}
+[36.634391] (-) TimerEvent: {}
+[36.734738] (-) TimerEvent: {}
+[36.835062] (-) TimerEvent: {}
+[36.935385] (-) TimerEvent: {}
+[37.035741] (-) TimerEvent: {}
+[37.136027] (-) TimerEvent: {}
+[37.236266] (-) TimerEvent: {}
+[37.336564] (-) TimerEvent: {}
+[37.436867] (-) TimerEvent: {}
+[37.537189] (-) TimerEvent: {}
+[37.637504] (-) TimerEvent: {}
+[37.737808] (-) TimerEvent: {}
+[37.838119] (-) TimerEvent: {}
+[37.938431] (-) TimerEvent: {}
+[38.038739] (-) TimerEvent: {}
+[38.139045] (-) TimerEvent: {}
+[38.239354] (-) TimerEvent: {}
+[38.339638] (-) TimerEvent: {}
+[38.439870] (-) TimerEvent: {}
+[38.540091] (-) TimerEvent: {}
+[38.640396] (-) TimerEvent: {}
+[38.740708] (-) TimerEvent: {}
+[38.841022] (-) TimerEvent: {}
+[38.941339] (-) TimerEvent: {}
+[39.041647] (-) TimerEvent: {}
+[39.141973] (-) TimerEvent: {}
+[39.242334] (-) TimerEvent: {}
+[39.342660] (-) TimerEvent: {}
+[39.442969] (-) TimerEvent: {}
+[39.543285] (-) TimerEvent: {}
+[39.643630] (-) TimerEvent: {}
+[39.743862] (-) TimerEvent: {}
+[39.844178] (-) TimerEvent: {}
+[39.944411] (-) TimerEvent: {}
+[40.044660] (-) TimerEvent: {}
+[40.144970] (-) TimerEvent: {}
+[40.245312] (-) TimerEvent: {}
+[40.345620] (-) TimerEvent: {}
+[40.445930] (-) TimerEvent: {}
+[40.546237] (-) TimerEvent: {}
+[40.646486] (-) TimerEvent: {}
+[40.746802] (-) TimerEvent: {}
+[40.847117] (-) TimerEvent: {}
+[40.947436] (-) TimerEvent: {}
+[41.047725] (-) TimerEvent: {}
+[41.147953] (-) TimerEvent: {}
+[41.248203] (-) TimerEvent: {}
+[41.348508] (-) TimerEvent: {}
+[41.448820] (-) TimerEvent: {}
+[41.549135] (-) TimerEvent: {}
+[41.649464] (-) TimerEvent: {}
+[41.749785] (-) TimerEvent: {}
+[41.850122] (-) TimerEvent: {}
+[41.950441] (-) TimerEvent: {}
+[42.050769] (-) TimerEvent: {}
+[42.151078] (-) TimerEvent: {}
+[42.251395] (-) TimerEvent: {}
+[42.351634] (-) TimerEvent: {}
+[42.451866] (-) TimerEvent: {}
+[42.552183] (-) TimerEvent: {}
+[42.652513] (-) TimerEvent: {}
+[42.752826] (-) TimerEvent: {}
+[42.853156] (-) TimerEvent: {}
+[42.953470] (-) TimerEvent: {}
+[43.053790] (-) TimerEvent: {}
+[43.154095] (-) TimerEvent: {}
+[43.254366] (-) TimerEvent: {}
+[43.354632] (-) TimerEvent: {}
+[43.454983] (-) TimerEvent: {}
+[43.527779] (lio_sam) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable lio_sam_mapOptimization\x1b[0m\n'}
+[43.555161] (-) TimerEvent: {}
+[43.655483] (-) TimerEvent: {}
+[43.755784] (-) TimerEvent: {}
+[43.856102] (-) TimerEvent: {}
+[43.885499] (lio_sam) StderrLine: {'line': b'/usr/bin/ld: warning: libtbb.so.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d, may conflict with libtbb.so.12\n'}
+[43.956195] (-) TimerEvent: {}
+[44.030484] (lio_sam) StdoutLine: {'line': b'[ 97%] Built target lio_sam_mapOptimization\n'}
+[44.031245] (lio_sam) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[44.032775] (lio_sam) CommandEnded: {'returncode': 2}
+[44.056266] (-) TimerEvent: {}
+[44.098810] (lio_sam) JobEnded: {'identifier': 'lio_sam', 'rc': 2}
+[44.109169] (-) EventReactorShutdown: {}
